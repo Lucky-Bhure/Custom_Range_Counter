@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.container{
+    padding-top: -25px;
+    height: 100vh;
+    width: 100vw;
+    background-color:#FFE6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    color: black;
+}
+
+.userinput{
+    height: 40px;
+    width: 300px;
+    border: 1px solid rgb(79, 2, 2);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(97, 95, 95);
+    font-size: large;
+}
+
+.start{
+    background-color: blue;
+    color: white;
+    border: 4px solid rgba(149, 149, 252, 0.778);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: large;
+}
+
+.number{
+    font-size: 35px;
+    color: red;
+}
